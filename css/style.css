@@ -12243,7 +12243,10 @@ body:not(.device-touch) .tagcloud a {
 .widget_recent_entries > ul,
 .widget_categories > ul,
 .widget_pages > ul,
-.widget_rss > ul { margin-top: -4px !important; }
+.widget_rss>ul {
+	margin-top: -4px !important;
+	margin-bottom: 30px;
+}
 
 .widget_nav_menu ul ul,
 .widget_links ul ul,
